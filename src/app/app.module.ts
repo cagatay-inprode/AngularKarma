@@ -15,6 +15,7 @@ import { ContainerComponent } from './container/container.component';
 import { FooterComponent } from './footer/footer.component';
 import { CategorylistComponent } from './categorylist/categorylist.component';
 import { SupplerlistComponent } from './supplerlist/supplerlist.component';
+import { ProductlistComponent } from './productlist/productlist.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { SupplerlistComponent } from './supplerlist/supplerlist.component';
     ContainerComponent,
     FooterComponent,
     CategorylistComponent,
-    SupplerlistComponent
+    SupplerlistComponent,
+    ProductlistComponent
   ],
   imports: [
     BrowserModule,
