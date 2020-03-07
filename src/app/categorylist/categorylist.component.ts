@@ -8,9 +8,10 @@ import {CategoryService} from './../../services/category.service';
 })
 export class CategorylistComponent implements OnInit {
 
+
   constructor(private _categoryservice:CategoryService) { 
     this._categoryservice.GetCategories().subscribe((data: any) => {
-      
+  
     });
   }
 
