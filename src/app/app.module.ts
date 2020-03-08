@@ -21,6 +21,7 @@ import { CategorydetailComponent } from './categorydetail/categorydetail.compone
 import { OrderComponent } from './order/order.component';
 import { SuppliertableComponent } from './suppliertable/suppliertable.component';
 import { AddcategoryComponent } from './addcategory/addcategory.component';
+import { AddsupplierComponent } from './addsupplier/addsupplier.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { AddcategoryComponent } from './addcategory/addcategory.component';
     CategorydetailComponent,
     OrderComponent,
     SuppliertableComponent,
-    AddcategoryComponent
+    AddcategoryComponent,
+    AddsupplierComponent
   ],
   imports: [
     BrowserModule,
