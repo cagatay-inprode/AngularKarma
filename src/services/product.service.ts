@@ -11,4 +11,8 @@ export class ProductService {
   GetProducts(){
     return this.http.get(`https://northwind.now.sh/api/products`);
   }
+
+  GetProductByID(id:number){
+    return this.http.get("https://northwind.now.sh/api/products/" + id)
+  }
 }

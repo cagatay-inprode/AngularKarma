@@ -16,6 +16,7 @@ import { FooterComponent } from './footer/footer.component';
 import { CategorylistComponent } from './categorylist/categorylist.component';
 import { SupplerlistComponent } from './supplerlist/supplerlist.component';
 import { ProductlistComponent } from './productlist/productlist.component';
+import { ProductdetailComponent } from './productdetail/productdetail.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ProductlistComponent } from './productlist/productlist.component';
     FooterComponent,
     CategorylistComponent,
     SupplerlistComponent,
-    ProductlistComponent
+    ProductlistComponent,
+    ProductdetailComponent
   ],
   imports: [
     BrowserModule,
