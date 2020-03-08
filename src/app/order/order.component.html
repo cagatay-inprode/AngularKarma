@@ -1,0 +1,20 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">CustomerID</th>
+        <th scope="col">Ship Via</th>
+        <th scope="col">Freight</th>
+      </tr>
+
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of orders">
+        <th scope="row" (click)='GetCity(item.id)'>{{item.id}}</th>
+        <td>{{item.customerId}}</td>
+        <td>{{item.shipVia}}</td>
+        <td>{{item.freight}}</td>
+      </tr>
+
+    </tbody>
+  </table>

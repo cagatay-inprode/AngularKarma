@@ -7,6 +7,7 @@ import { ProductService } from 'src/services/product.service';
   templateUrl: './productdetail.component.html',
   styleUrls: ['./productdetail.component.css']
 })
+
 export class ProductdetailComponent implements OnInit {
 
   productname:string='';

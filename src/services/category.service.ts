@@ -16,4 +16,7 @@ export class CategoryService {
      return this.http.get("https://northwind.now.sh/api/categories");
    }
 
+   GetCategoryByID(id:number){
+    return this.http.get("https://northwind.now.sh/api/categories/" + id)
+   }
 }
