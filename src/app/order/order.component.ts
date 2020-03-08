@@ -21,7 +21,7 @@ export class OrderComponent implements OnInit {
   GetCity(id:number){
     this._orderservice.GetOrderByID(id).subscribe((data:any)=>{
       console.log(data.shipAddress.city)
-    })
+    });
   }
 
 
